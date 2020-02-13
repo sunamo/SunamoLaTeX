@@ -9,6 +9,8 @@
     <PackageReleaseNotes>Initial package</PackageReleaseNotes>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>www.sunamo.cz</Authors>
+    <PackageLicenseExpression>MI</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
