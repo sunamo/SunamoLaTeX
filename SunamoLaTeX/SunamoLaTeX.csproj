@@ -1,5 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -12,12 +12,17 @@
     <Authors>www.sunamo.cz</Authors>
     <PackageLicenseExpression>MI</PackageLicenseExpression>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="SunamoLaTeX.png">
       <Pack>True</Pack>
-      <PackagePath></PackagePath>
+      <PackagePath>
+      </PackagePath>
     </None>
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\..\sunamo\Xlf\Xlf.csproj">
+      <Project>{00B76D22-B82F-43FD-AC48-4B1F56E6910F}</Project>
+      <Name>Xlf</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
