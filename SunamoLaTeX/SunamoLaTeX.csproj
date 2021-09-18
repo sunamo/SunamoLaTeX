@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>Convert TeX syntax to unicode</Description>
     <PackageIcon>SunamoLaTeX.png</PackageIcon>
-    <PackageIconUrl />
+    <PackageIconUrl></PackageIconUrl>
     <PackageReleaseNotes>Initial package</PackageReleaseNotes>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -20,9 +20,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sunamo\Xlf\Xlf.csproj">
-      <Project>{00B76D22-B82F-43FD-AC48-4B1F56E6910F}</Project>
-      <Name>Xlf</Name>
-    </ProjectReference>
+    <ProjectReference Include="..\..\..\sunamo\Xlf\Xlf.csproj"></ProjectReference>
   </ItemGroup>
 </Project>
