@@ -7,6 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoLaTeX", "SunamoLaTeX\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xlf", "..\..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoLatex.Tests", "e:\Documents\vs\Projects\_nupkg\SunamoLaTeX\SunamoLatex.Tests\SunamoLatex.Tests.csproj", "{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSec", "..\..\CredentialsWithoutDep\WinSec\WinSec.csproj", "{9423413C-10F6-409A-A54B-CAF41E3D77D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fmdev.ResX", "..\..\sunamo.notmine\fmdev.ResX\fmdev.ResX.csproj", "{E42626DA-3DE9-4CFB-A1E7-77944F8C9396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XliffParser", "..\..\sunamo.notmine\XliffParser\XliffParser.csproj", "{A8E5EB89-5CB4-4736-B385-A79513E34058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoExceptions", "..\..\sunamoWithoutDep\SunamoExceptions\SunamoExceptions.csproj", "{9770B913-102B-4684-8CA9-276B53462A30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resources", "..\..\sunamo\Resources\Resources.csproj", "{D9EB95CD-82ED-44E6-9D50-0C05B7A44BFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +33,30 @@ Global
 		{00B76D22-B82F-43FD-AC48-4B1F56E6910F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B76D22-B82F-43FD-AC48-4B1F56E6910F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B76D22-B82F-43FD-AC48-4B1F56E6910F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9423413C-10F6-409A-A54B-CAF41E3D77D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9423413C-10F6-409A-A54B-CAF41E3D77D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9423413C-10F6-409A-A54B-CAF41E3D77D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9423413C-10F6-409A-A54B-CAF41E3D77D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42626DA-3DE9-4CFB-A1E7-77944F8C9396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42626DA-3DE9-4CFB-A1E7-77944F8C9396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42626DA-3DE9-4CFB-A1E7-77944F8C9396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42626DA-3DE9-4CFB-A1E7-77944F8C9396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E5EB89-5CB4-4736-B385-A79513E34058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E5EB89-5CB4-4736-B385-A79513E34058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E5EB89-5CB4-4736-B385-A79513E34058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E5EB89-5CB4-4736-B385-A79513E34058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9770B913-102B-4684-8CA9-276B53462A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9770B913-102B-4684-8CA9-276B53462A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9770B913-102B-4684-8CA9-276B53462A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9770B913-102B-4684-8CA9-276B53462A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EB95CD-82ED-44E6-9D50-0C05B7A44BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EB95CD-82ED-44E6-9D50-0C05B7A44BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EB95CD-82ED-44E6-9D50-0C05B7A44BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EB95CD-82ED-44E6-9D50-0C05B7A44BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
