@@ -1,8 +1,6 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-   <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>Convert TeX syntax to unicode</Description>
     <PackageIcon>SunamoLaTeX.png</PackageIcon>
@@ -16,8 +14,7 @@
   <ItemGroup>
     <None Include="SunamoLaTeX.png">
       <Pack>True</Pack>
-      <PackagePath>
-      </PackagePath>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
   <ItemGroup>
