@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoLaTeX", "SunamoLaTeX\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xlf", "..\..\sunamo\Xlf\Xlf.csproj", "{00B76D22-B82F-43FD-AC48-4B1F56E6910F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoLatex.Tests", "e:\Documents\vs\Projects\_nupkg\SunamoLaTeX\SunamoLatex.Tests\SunamoLatex.Tests.csproj", "{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoLatex.Tests", "SunamoLatex.Tests\SunamoLatex.Tests.csproj", "{1BFDB74A-7C4A-4E1D-9C4B-C8FE1FF94757}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSec", "..\..\CredentialsWithoutDep\WinSec\WinSec.csproj", "{9423413C-10F6-409A-A54B-CAF41E3D77D4}"
 EndProject
