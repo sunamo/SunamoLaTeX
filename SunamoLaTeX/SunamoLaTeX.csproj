@@ -1,15 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Description>Convert TeX syntax to unicode</Description>
-    <PackageIcon>SunamoLaTeX.png</PackageIcon>
-    <PackageIconUrl></PackageIconUrl>
-    <PackageReleaseNotes>Initial package</PackageReleaseNotes>
-    <Copyright>www.sunamo.cz</Copyright>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Authors>www.sunamo.cz</Authors>
-    <PackageLicenseExpression>MI</PackageLicenseExpression>
+    <TargetFramework>net7.0-windows</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <None Include="SunamoLaTeX.png">
@@ -20,4 +11,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\sunamo\Xlf\Xlf.csproj"></ProjectReference>
   </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
 </Project>
