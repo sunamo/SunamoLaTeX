@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Version>23.12.9.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="SunamoLaTeX.png">
@@ -9,7 +10,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\sunamo\Xlf\Xlf.csproj"></ProjectReference>
+    <ProjectReference Include="..\..\..\sunamoWithoutLocalDep\Xlf\Xlf.csproj"></ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);ASYNC</DefineConstants>
