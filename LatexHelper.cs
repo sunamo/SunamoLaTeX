@@ -2,24 +2,22 @@ namespace SunamoLaTeX;
 
 public class LatexHelper
 {
-    public static Dictionary<string, string> texSymbols = new Dictionary<string, string>();
+    public static Dictionary<string, string> texSymbols = new();
 
     public static string ConvertToUnicode(string input)
     {
         Init();
 
-        foreach (var item in texSymbols)
-        {
-            input= input.Replace(item.Key, item.Value);
-        }
+        foreach (var item in texSymbols) input = input.Replace(item.Key, item.Value);
         return input;
     }
 
-    static void Init()
+    private static void Init()
     {
         if (texSymbols.Count == 0)
         {
             #region MyRegion
+
             texSymbols.Add("\\barleftarrowrightarrowba", "↹");
             texSymbols.Add("\\rightarrowshortleftarrow", "⥂");
             texSymbols.Add("\\leftarrowshortrightarrow", "⥃");
