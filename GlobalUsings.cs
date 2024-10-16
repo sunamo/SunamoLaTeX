@@ -1,6 +1,6 @@
 global using System.Collections.Generic;
 global using SunamoLaTeX._sunamo.SunamoExceptions;
-global using SunamoLaTeX._sunamo.SunamoValues;
+global using SunamoLaTeX;
 global using System;
 global using System.Linq;
 global using System.Text;
