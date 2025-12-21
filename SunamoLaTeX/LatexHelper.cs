@@ -1,6 +1,7 @@
+namespace SunamoLaTeX;
+
 // EN: Variable names have been checked and replaced with self-descriptive names
 // CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
-namespace SunamoLaTeX;
 public partial class LatexHelper
 {
     public static Dictionary<string, string> texSymbols = new();
