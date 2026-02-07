@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoLaTeX.Tests\\SunamoLaTeX.Tests.csproj" />
+  <Project Path="RunnerLaTeX\\RunnerLaTeX.csproj" />
+  <Project Path="SunamoLaTeX\SunamoLaTeX.csproj" />
+</Solution>
