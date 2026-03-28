@@ -5,11 +5,10 @@ public partial class LatexHelper
     /// <summary>
     /// Initializes the LaTeX symbol to Unicode mapping dictionary.
     /// </summary>
-    private static void Init()
+    private static void init()
     {
         if (TexSymbols.Count == 0)
         {
-#region MyRegion
             TexSymbols.Add("\\barleftarrowrightarrowba", "↹");
             TexSymbols.Add("\\rightarrowshortleftarrow", "⥂");
             TexSymbols.Add("\\leftarrowshortrightarrow", "⥃");
@@ -2413,7 +2412,6 @@ public partial class LatexHelper
             TexSymbols.Add("y", "𝑦");
             TexSymbols.Add("z", "𝑧");
             TexSymbols.Add("-", "−");
-#endregion
         }
     }
 }

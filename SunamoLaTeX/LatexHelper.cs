@@ -17,7 +17,7 @@ public partial class LatexHelper
     /// <returns>The converted Unicode text.</returns>
     public static string ConvertToUnicode(string latexText)
     {
-        Init();
+        init();
         foreach (var item in TexSymbols)
             latexText = latexText.Replace(item.Key, item.Value);
         return latexText;
