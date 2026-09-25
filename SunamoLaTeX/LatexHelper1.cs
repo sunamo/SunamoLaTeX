@@ -2,6 +2,9 @@ namespace SunamoLaTeX;
 
 public partial class LatexHelper
 {
+    /// <summary>
+    /// Initializes the LaTeX symbol to Unicode mapping dictionary.
+    /// </summary>
     private static void init()
     {
         if (TexSymbols.Count == 0)
