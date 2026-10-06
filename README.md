@@ -1,5 +1,10 @@
 # SunamoLaTeX
 
+## Short description
+
+Knihovna převádějící zápis symbolů LaTeX na znaky Unicode. Mapuje více než 2400 příkazů LaTeX na jejich ekvivalenty. Obsahuje Runner a testy.
+
+
 A .NET library for converting LaTeX symbol notation to Unicode characters. Maps over 2400 LaTeX commands to their corresponding Unicode equivalents.
 
 ## Overview
